@@ -9,6 +9,7 @@ packages = [{include = "warzone_bot"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.31.0"
+discord-py = "^2.3.2"
 
 
 [build-system]
