@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "warzone-bot"
+version = "0.1.0"
+description = ""
+authors = ["Arthur Vinberg <arthur1801@outlook.com>"]
+readme = "README.md"
+packages = [{include = "warzone_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
